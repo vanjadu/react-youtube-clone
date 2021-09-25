@@ -1,0 +1,12 @@
+.recommended {
+    flex: .8;
+    padding: 40px;
+    padding-bottom: 0;
+    &__title {
+        margin-bottom: 20px;
+    }
+    &__videos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

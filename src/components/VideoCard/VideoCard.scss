@@ -1,0 +1,30 @@
+.video-card {
+    width: 270px;
+    margin-bottom: 20px;
+    &__thumbnail {
+        height: 140px;
+        width: 250px;
+        object-fit: cover;
+    }
+    &__info {
+        display: flex;
+        margin-top: 10px;
+        padding-right: 30px;
+    }
+    &__video-text {
+        margin-left: 15px;
+    }
+    &__video-title {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    p {
+        font-size: 14px;
+        color: gray;
+    }
+    &__avatar {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+    }
+}

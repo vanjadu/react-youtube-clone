@@ -1,0 +1,45 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 1.5rem;
+  background-color: #fff;
+  &__logo {
+    height: 20px;
+    margin-left: 20px;
+  }
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+  &__center {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid lightgray;
+  }
+  &__search-icon {
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+  }
+  &__center {
+    input {
+      flex: 1;
+      border: none;
+      padding: 5px;
+    }
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+  &__right-icon {
+    margin-right: 15px;
+  }
+}

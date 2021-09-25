@@ -1,0 +1,23 @@
+.channel-row {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  &__avatar {
+    height: 100px !important;
+    width: 100px !important;
+    margin: 10px 60px;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    p {
+      color: #606060;
+      font-size: small !important;
+    }
+  }
+  &__channel-name {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+}
